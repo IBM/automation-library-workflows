@@ -66,7 +66,7 @@
 	],
 	"bundles": [
 		{
-			"path": "https://raw.githubusercontent.com/IBM/Concert/refs/tags/v2.3.1/concert-workflows/manifest.json",
+			"path": "https://raw.githubusercontent.com/IBM/Concert/refs/tags/v2.3.1.1/concert-workflows/manifest.json",
 			"certified": true,
 			"tags": [
 				"team:ibm-concert"
