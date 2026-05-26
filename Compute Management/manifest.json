@@ -8,6 +8,7 @@
       "path": "AWS EC2 Instance IP and Tag Map.zip",
       "description": "Returns an object with one property per instance in a given region, including the tags and private IP address. Requires an AWS authKey and the region to query",
       "integrations": [
+        "AWS",
         "Common"
       ],
       "tags": [

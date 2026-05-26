@@ -34,7 +34,8 @@
       "path": "CiscoRouterHealth.zip",
       "description": "Checks the health of a router by checking CPU, Memory, interface status, routing table metric, and boot variables.  This enable users to undertand the health of their infrastructure.",
       "integrations": [
-        "Common"
+        "Common",
+        "Napalm"
       ],
       "tags": [
         "use-case:network-management",
@@ -63,6 +64,127 @@
       "tags": [
         "use-case:network-management"
       ]
+    },
+    {
+      "name": "ITNMContainers - Refresh SNMP Credentials",
+      "path": "ITNMContainers_-_Refresh_SNMP_Credentials.zip",
+      "description": "ITNM Containers:  Refreshes SNMP Credentials for the devices specified in the file on the ITNM core container. The workflow first checks the status of the ITNM services on the input domain and if the services are running, issues the command to refresh SNMP credentials. ",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNMContainers - Trigger Network Discovery",
+      "path": "ITNMContainers_-_Trigger_Network_Discovery.zip",
+      "description": "ITNM Containers: Triggers Network Discovery on ITNM services for a given domain. The workflow first checks the status of the ITNM services on the input domain and if the services are running, the network discovery is issued.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNMContainers -  Add a Network Device",
+      "path": "ITNMContainers_-__Add_a_Network_Device.zip",
+      "description": "ITNM Containers :  Adds a network device to an ITNM domain. The workflow first checks the status of the ITNM services on the input domain and if the services are running, it issues the command to add the device to the domain. ",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNMContainers -  Domain Create",
+      "path": "ITNMContainers_-__Domain_Create.zip",
+      "description": "ITNM Containers: Creates a new domain based on the existing domain and starts the ITNM services on the new domain. The workflow first checks the status of the ITNM services on the existing domain and if the services are running, proceeds to create the new domain.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNMContainers -  Remove a Network Device",
+      "path": "ITNMContainers_-__Remove_a_Network_Device.zip",
+      "description": "ITNM Containers: Removes a device from an ITNM domain. The workflow first checks the status of the ITNM services on the input domain and if the services are running, it issues the command to remove the device from the domain.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM - Add Network Device",
+      "path": "ITNM_-_Add_Network_Device.zip",
+      "description": "Adds a network device to an ITNM domain. The workflow first checks the status of the ITNM services on the input domain and if the services are running, it issues the command to add the device to the domain.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM - Domain Create",
+      "path": "ITNM_-_Domain_Create.zip",
+      "description": "Creates a new domain based on the existing domain and starts the ITNM services on the new domain. The workflow first checks the status of the ITNM services on the existing domain and if the services are running, proceeds to create the new domain.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM - Refresh SNMP Credentials",
+      "path": "ITNM_-_Refresh_SNMP_Credentials.zip",
+      "description": "Refreshes SNMP Credentials for the devices specified in the file on the ITNM core server. The workflow first checks the status of the ITNM services on the input domain and if the services are running, issues the command to refresh SNMP credentials.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM - Remove Network Device",
+      "path": "ITNM_-_Remove_Network_Device.zip",
+      "description": "Removes a device from an ITNM domain. The workflow first checks the status of the ITNM services on the input domain and if the services are running, it issues the command to remove the device from the domain.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM - Trigger Network Discovery",
+      "path": "ITNM_-_Trigger_Network_Discovery.zip",
+      "description": "Triggers Network Discovery on ITNM services for a given domain. The workflow first checks the status of the ITNM services on the input domain and if the services are running, the network discovery is issued.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM DB  DB2 NCIMDB Counts",
+      "path": "ITNM_DB__DB2_NCIMDB_Counts.zip",
+      "description": "Gets total Entity Count and Main Node Entity Count from a DB2 database hosting ITNM NCIM database.",
+      "integrations": [
+        "Common",
+        "IBM"
+      ],
+      "certified": true,
+      "tags": []
+    },
+    {
+      "name": "ITNM DB  Oracle NCIM Counts",
+      "path": "ITNM_DB__Oracle_NCIM_Counts.zip",
+      "description": "Gets total Entity Count and Main Node Entity Count from a Oracle database hosting ITNM NCIM database. The SSH authentication should be of the Oracle user as SQL*Plus is used to run the database commands.",
+      "integrations": [
+        "Common"
+      ],
+      "certified": true,
+      "tags": []
     }
   ]
 }

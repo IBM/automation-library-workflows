@@ -1,0 +1,111 @@
+[
+	{
+		"id": "team",
+		"name": "Team",
+		"description": "Workflows that are best suited for a respective department in your organization.",
+		"values": [
+			{
+				"id": "team:security",
+				"name": "Security",
+				"description": "Stay ahead of threats by ensuring that automated security provisions are enabled. Rely on our flows to secure your network."
+			},
+			{
+				"id": "team:networking",
+				"name": "Networking",
+				"description": "Solve complex network orchestration issues and optimize performance by enabling the flows in this section."
+			},
+			{
+				"id": "team:compute",
+				"name": "Compute",
+				"description": "Provision complex Compute-related tasks by leveraging our flows library. Explore our solutions in this category."
+			},
+			{
+				"id": "team:devops",
+				"name": "DevOps",
+				"description": "Resolve complex issues and automate tedious DevOps tasks by using our specialized flows. This category explores commonly used scenarios."
+			},
+			{
+				"id": "team:ibm-concert",
+				"name": "IBM Concert",
+				"description": " Flows for IBM Concert data ingestion and automated action."
+			}
+		]
+	},
+	{
+		"id": "use-case",
+		"name": "Use case",
+		"description": "Filter workflows that are best suited for a specific use case.",
+		"values": [
+			{
+				"id": "use-case:resource-creation",
+				"name": "Resource Creation",
+				"description": "Explore flows that allow you to easily create various resources with only a few clicks. These flows save precious time when setting up dedicated assets across different use cases."
+			},
+			{
+				"id": "use-case:ci-cd",
+				"name": "CI/CD",
+				"description": "These flows assist DevOps when performing routine CI/CD procedures. Commonly used scenarios are readily available!"
+			},
+			{
+				"id": "use-case:network-management",
+				"name": "Network Management",
+				"description": "Take full control of your network by automating common tasks. Provision complex automations to optimize network performance."
+			},
+			{
+				"id": "use-case:compute-management",
+				"name": "Compute Management",
+				"description": "Our flows give you the ability to rest assured that mundane computer management tasks will be taken care of! Explore this section to discover our top selection."
+			},
+			{
+				"id": "use-case:cost-management",
+				"name": "Cost Management",
+				"description": "Leverage the power of Pliant's integrations and automation capabilities to reduce costs and plan your budget, run complex operations and align your financial goals."
+			},
+			{
+				"id": "use-case:example",
+				"name": "Example",
+				"description": "Flows to illustrate different structures and operations you may want to use in your own flows."
+			},
+			{
+				"id": "use-case:system-testing",
+				"name": "System Testing",
+				"description": "Pre-built tests for various systems and technologies."
+			},
+			{
+				"id": "use-case:observability",
+				"name": "Observability",
+				"description": "Gather data from all kinds of different systems and report on it or store it where you need it."
+			},
+			{
+				"id": "use-case:compliance",
+				"name": "Compliance",
+				"description": "Flows for IBM Concert Compliance Dimension"
+			},
+			{
+				"id": "use-case:resilience",
+				"name": "Resilience",
+				"description": "Flows for IBM Concert Resilience Dimension"
+			},
+			{
+				"id": "use-case:risk",
+				"name": "Risk",
+				"description": "Flows for IBM Concert Risk Dimension"
+			},
+			{
+				"id": "use-case:vulnerability-remediation",
+				"name": "Vulnerability Remediation",
+				"description": "Flows for IBM Concert Vulnerability Remediation Dimension"
+			},
+			{
+				"id": "use-case:vulnerability-scans",
+				"name": "Vulnerability Scans",
+				"description": "Flows for IBM Concert Vulnerability Scan Dimension"
+			},
+			{
+				"id": "use-case:certificates",
+				"name": "Certificates",
+				"description": "Flows for IBM Concert Certificates Dimension"
+			}
+		]
+	}
+]

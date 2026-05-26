@@ -23,6 +23,7 @@
       "description": "This flow will put a device or devices into \"maintenance mode\" in SevOne, meaning that the device and it's objects will not create new alerts.\n\nInstructions and inputs:\n\n1. Input either a list of device groups and/or a list of device names.\n2. Configure the maintenance begin time and maintenance end times.\n\nThe flow will create Pliant Jobs that will initiate both the start and end times to maintenance.",
       "integrations": [
         "Common",
+        "Pliant",
         "SevOne"
       ],
       "tags": [
@@ -70,11 +71,26 @@
       "path": "Sync SevOne ServiceNow v3.zip",
       "description": "Performs a sync of SevOne (non trap/flow) Alerts to ServiceNow Incidents. SevOne Alerts are deduplicated before import into ServiceNow. Alert Status and Severity are also synced. Closed alerts will be resolved in ServiceNow.\nThis flow can be scheduled as a job to keep ServiceNow Incidents updated at a regular frequency\nRun with the \"pretend\" parameter set to true to see a preview of what actions the flow will take. ",
       "integrations": [
-        "Common"
+        "Common",
+        "ServiceNow",
+        "SevOne"
       ],
       "tags": [
         "use-case:observability",
         "use-case:network-management"
+      ]
+    },
+    {
+      "name": "Pliant Instance Health Check",
+      "path": "Pliant_Instance_Health_Check.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Salesforce"
+      ],
+      "tags": [
+        "use-case:observability",
+        "use-case:system-testing"
       ]
     }
   ]
