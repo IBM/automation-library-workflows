@@ -247,24 +247,8 @@ async function extractIntegrationsFromZip(zipPath) {
     });
 }
 
-// Extract integrations from a workflow
-function extractFromWorkflow(workflow, workflowPath, allWorkflows, integrations, visited) {
-    if (visited.has(workflowPath)) {
-        return; // Prevent circular references
-    }
-    visited.add(workflowPath);
-
-    // Handle array of workflows
-    if (Array.isArray(workflow)) {
-        workflow.forEach(wf => extractFromWorkflow(wf, workflowPath, allWorkflows, integrations, visited));
-        return;
-    }
-
-    if (!workflow.blocks || !Array.isArray(workflow.blocks)) {
-        return;
-    }
-
-    for (const block of workflow.blocks) {
+function walkBlocks(blocks, integrations, workflowPath, allWorkflows, visited) {
+    for (const block of blocks) {
         // Rule 1: Block without action
         if (!block.action) {
             integrations.add('Common');
@@ -272,11 +256,12 @@ function extractFromWorkflow(workflow, workflowPath, allWorkflows, integrations,
         }
 
         const action = block.action;
+        let isMetaBlock = false;
 
         // Rule 2: Common action (no '/' in action)
         if (!action.includes('/')) {
             integrations.add('Common');
-            continue;
+            isMetaBlock = true;
         }
 
         // Rule 3: Integration action (starts with 'system/')
@@ -284,6 +269,17 @@ function extractFromWorkflow(workflow, workflowPath, allWorkflows, integrations,
             const parts = action.split('/');
             if (parts.length >= 2) {
                 integrations.add(parts[1]);
+            }
+            continue;
+        }
+
+        if (isMetaBlock) {
+            for (let entry of Object.entries(block)) {
+                if (!Array.isArray(entry[1])) {
+                    continue;
+                }
+
+                walkBlocks(entry[1], integrations, workflowPath, allWorkflows, visited);
             }
             continue;
         }
@@ -307,6 +303,27 @@ function extractFromWorkflow(workflow, workflowPath, allWorkflows, integrations,
             }
         }
     }
+}
+
+// Extract integrations from a workflow
+function extractFromWorkflow(workflow, workflowPath, allWorkflows, integrations, visited) {
+    if (visited.has(workflowPath)) {
+        return; // Prevent circular references
+    }
+    visited.add(workflowPath);
+
+    // Handle array of workflows
+    if (Array.isArray(workflow)) {
+        workflow.forEach(wf => extractFromWorkflow(wf, workflowPath, allWorkflows, integrations, visited));
+        return;
+    }
+
+    if (!workflow.blocks || !Array.isArray(workflow.blocks)) {
+        return;
+    }
+
+    walkBlocks(workflow.blocks, integrations, workflowPath, allWorkflows, visited)
+    
 }
 
 // Resolve relative workflow path
@@ -492,7 +509,7 @@ async function downloadBundles(labelName) {
                 const downloadUrl = `https://automation-library.ibm.com/api/flow-download?key=${flowData.download_url}`;
 
                 // Use result.name for filename
-                const filename = `${flowData.result.name}.zip`;
+                const filename = `${flowData.result.name}.zip`.replace(/:/g, '_');
                 const filepath = path.join(categoryPath, filename);
 
                 console.log(`    Downloading to: ${filepath}`);
