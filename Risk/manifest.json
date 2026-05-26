@@ -1,0 +1,6 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Risk",
+  "description": "Flows for IBM Concert Risk Dimension",
+  "entries": []
+}

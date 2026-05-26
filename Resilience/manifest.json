@@ -1,0 +1,6 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Resilience",
+  "description": "Flows for IBM Concert Resilience Dimension",
+  "entries": []
+}

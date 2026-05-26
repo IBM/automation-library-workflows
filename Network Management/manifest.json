@@ -1,0 +1,68 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Network Management",
+  "description": "Take full control of your network by automating common tasks. Provision complex automations to optimize network performance.",
+  "entries": [
+    {
+      "name": "Add DNS Entry to AWS Route53",
+      "path": "Add DNS Entry to AWS Route53.zip",
+      "description": "For a given hostname and value, adds an A or CNAME record to the given hosted zone domain in AWS Route53. Returns \"OK\" if all is well and thows an error on failure.",
+      "integrations": [
+        "Common",
+        "AWS"
+      ],
+      "tags": [
+        "use-case:network-management"
+      ]
+    },
+    {
+      "name": "Add SevOne Device Metadata from Excel",
+      "path": "Add SevOne Device Metadata from Excel.zip",
+      "description": "Imports SevOne device metadata from spreadsheet. Tabs in the spreadsheet should be named as a namespace, and column headers per the attributes. First Column should be name of Device.",
+      "integrations": [
+        "Common",
+        "Excel",
+        "SevOne"
+      ],
+      "tags": [
+        "use-case:network-management",
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "CiscoRouterHealth",
+      "path": "CiscoRouterHealth.zip",
+      "description": "Checks the health of a router by checking CPU, Memory, interface status, routing table metric, and boot variables.  This enable users to undertand the health of their infrastructure.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:network-management",
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "Export Route53 DNS Zone as zone file",
+      "path": "Export Route53 DNS Zone as zone file.zip",
+      "description": "Gathers all records from a given AWS Route53 DNS Zone and exports the data in the Bind zone file format. Requres an AWS authKey wqith Route53 read permissions and the ID of the Zone to be exported.",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": [
+        "use-case:network-management"
+      ]
+    },
+    {
+      "name": "SNMP Get Interfaces",
+      "path": "SNMP Get Interfaces.zip",
+      "description": "Uses an SNMP authkey to query the snmp device and pull interface information from is using the ifTable table. Puts the output into an array of objects, with each array entry being an interface.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:network-management"
+      ]
+    }
+  ]
+}

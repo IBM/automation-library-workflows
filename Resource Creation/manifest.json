@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Resource Creation",
+  "description": "Explore flows that allow you to easily create various resources with only a few clicks. These flows save precious time when setting up dedicated assets across different use cases.",
+  "entries": [
+    {
+      "name": "Add Worker Group",
+      "path": "Add Worker Group.zip",
+      "description": "Important: Edit this flow and set your instance IP or FQDN in the Start block. \nOptional: Choose a role that will get access to the new worker group. Default: everyone\nFlow process: Validates all inputs. Creates a Worker Group on the given instance using the provided group name and description. Generates a group secret. Returns a validated configuration for the Docker based remote worker. Values needed to set up the Kubernetes based remote worker can be pulled from this output. \n",
+      "integrations": [
+        "Pliant",
+        "Common"
+      ],
+      "tags": [
+        "use-case:resource-creation",
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Create Google Sheet",
+      "path": "Create Google Sheet.zip",
+      "description": "Takes an array of arrays or an array of objects and creates a Google Sheet having the given name and containing the given data under the account for the given Google authKey",
+      "integrations": [
+        "Common",
+        "GSuite"
+      ],
+      "tags": [
+        "use-case:resource-creation",
+        "use-case:compute-management",
+        "use-case:network-management",
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Clone VM From VM Template v7",
+      "path": "Clone_VM_From_VM_Template_v7.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "VMWare"
+      ],
+      "tags": [
+        "use-case:resource-creation",
+        "use-case:compute-management"
+      ]
+    }
+  ]
+}

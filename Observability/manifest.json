@@ -1,0 +1,81 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Observability",
+  "description": "Gather data from all kinds of different systems and report on it or store it where you need it.",
+  "entries": [
+    {
+      "name": "CloudWatch Metrics to SevOne Data Insert",
+      "path": "CloudWatch Metrics to SevOne Data Insert.zip",
+      "description": "Gathers performance stats data from AWS CouldWatch for EC2 instances. Correlates the SevOne Device Name with the CouldWatch InstanceID based on the local IP - SevOne IP matching. Creates devices, objects, indicators as needed, and inserts data into SevOne",
+      "integrations": [
+        "Common",
+        "AWS",
+        "SevOne",
+        "Pliant"
+      ],
+      "tags": [
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "Configure Maintenance v2",
+      "path": "Configure Maintenance v2.zip",
+      "description": "This flow will put a device or devices into \"maintenance mode\" in SevOne, meaning that the device and it's objects will not create new alerts.\n\nInstructions and inputs:\n\n1. Input either a list of device groups and/or a list of device names.\n2. Configure the maintenance begin time and maintenance end times.\n\nThe flow will create Pliant Jobs that will initiate both the start and end times to maintenance.",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": [
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "Get Prometheus Datapoint",
+      "path": "Get Prometheus Datapoint.zip",
+      "description": "Pull a Prometheus datapoint using an http query and the Prometheus REST API. The inputs must be a host running Prometheus and a valid Prometheus query/endpoint.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "Invoke Instana automation action",
+      "path": "Invoke Instana automation action.zip",
+      "description": "Demonstrate how to invoke an Instana automation action and wait for the execution result.\nTakes an IBM Instana authKey name, Instana Action Name, and Host FQDN as inputs, returns the status from the action execution as the result. ",
+      "integrations": [
+        "IBM",
+        "Common"
+      ],
+      "tags": [
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "NetBrain Inventory",
+      "path": "NetBrain Inventory.zip",
+      "description": "Pulls an inventory from Netbrain and obtains all interfaces for each device. Puts the results into an Excel sheet and uses SCP to place the file onto a remote destination.",
+      "integrations": [
+        "Excel",
+        "NetBrain",
+        "Common"
+      ],
+      "tags": [
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "Sync SevOne ServiceNow v3",
+      "path": "Sync SevOne ServiceNow v3.zip",
+      "description": "Performs a sync of SevOne (non trap/flow) Alerts to ServiceNow Incidents. SevOne Alerts are deduplicated before import into ServiceNow. Alert Status and Severity are also synced. Closed alerts will be resolved in ServiceNow.\nThis flow can be scheduled as a job to keep ServiceNow Incidents updated at a regular frequency\nRun with the \"pretend\" parameter set to true to see a preview of what actions the flow will take. ",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:observability",
+        "use-case:network-management"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Cost Management",
+  "description": "Leverage the power of Pliant's integrations and automation capabilities to reduce costs and plan your budget, run complex operations and align your financial goals.",
+  "entries": [
+    {
+      "name": "Create MySQL Table from Salesforce Object Metadata",
+      "path": "Create MySQL Table from Salesforce Object Metadata.zip",
+      "description": "Reads the metadata for a given Salesforce.com object and renders a CREATE TABLE statement to create a table in MySQL. Salesforce data types are changed to the corresponding types as closely as possible. Inter-object references are currently skipped.",
+      "integrations": [
+        "Salesforce",
+        "Common"
+      ],
+      "tags": [
+        "use-case:cost-management",
+        "use-case:example",
+        "use-case:resource-creation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://raw.githubusercontent.com/IBM/workflows-public/main/schemas/root_manifest.json",
+	"type": "object",
+	"description": "A manifest for a bundle of ready-to-used workflows",
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "A short name for what this workflow bundle holds"
+		},
+		"description": {
+			"type": "string",
+			"description": "A description on what type of workflows this bunde holds"
+		},
+		"categories": {
+			"type": "array",
+			"description": "A list of categories that are included in this workflow bundle",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "The name of the category (can be used for filtering)"
+					},
+					"path": {
+						"type": "string",
+						"description": "The RELATIVE path to the category folder. Is used to access that category's manifest.json"
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"name",
+					"path"
+				]
+			}
+		},
+		"bundles": {
+			"type": "array",
+			"description": "A list of ABSOLUTE paths to external bundle manifests.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"path": {
+						"type": "string",
+						"description": "The absolute path to an external bundle manifest"
+					},
+					"tags": {
+						"type": "array",
+						"description": "An array of tags that can be automatically appended to ALL entries loaded from the external bundle.",
+						"items": {
+							"type": "string"
+						}
+					},
+					"certified": {
+						"type": "boolean",
+						"description": "Whether all of the flows in the bundle should automatically be marked as 'certified' (unless they are explicitly marked as non-certified)."
+					}
+				},
+				"required": ["path"],
+				"additionalProperties": false
+			}
+		},
+		"tagDefinitions": {
+			"type": "array",
+			"description": "A list of defined tags. Each tag defines its' possible values. These can be used to construct custom filtering.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "string",
+						"description": "The id of the tag. Goes in the left-hand side of the following format <TAG_ID>:<TAG_VALUE>"
+					},
+					"name": {
+						"type": "string",
+						"description": "A user-friendly name of the tag. Displayed on built filter options"
+					},
+					"description": {
+						"type": "string",
+						"description": "A short description of the tag GROUP."
+					},
+					"values": {
+						"type": "array",
+						"description": "Possible values for the tag. Each can go in the right-hand side of the following format <TAG_ID>:<TAG_VALUE>",
+						"items": {
+							"type": "object",
+							"description": "A possible value for a tag group.",
+							"properties": {
+								"id": {
+									"type": "string",
+									"description": "The id of the tag VALUE. Is in the format XYZ:ABC where XYZ is the ID of the parent tag group."
+								},
+								"name": {
+									"type": "string",
+									"description": "A user-friendly name of the tag value. Displayed on built filter options"
+								},
+								"description": {
+									"type": "string",
+									"description": "A short description of the tag value."
+								}
+							},
+							"required": [
+								"id",
+								"name",
+								"description"
+							],
+							"additionalProperties": false
+						}
+					}
+				},
+				"required": [
+					"id",
+					"name",
+					"description",
+					"values"
+				],
+				"additionalProperties": false
+			}
+		}
+	},
+	"additionalProperties": false,
+	"required": [
+		"name",
+		"description",
+		"categories",
+		"bundles"
+	]
+}

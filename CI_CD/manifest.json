@@ -1,0 +1,31 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "CI/CD",
+  "description": "These flows assist DevOps when performing routine CI/CD procedures. Commonly used scenarios are readily available! ",
+  "entries": [
+    {
+      "name": "Clean Cached SSH Connections",
+      "path": "Clean Cached SSH Connections.zip",
+      "description": "Forces Pliant to close the cached SSH connections for the current session. Add this to the END of your flow that uses SSH to be sure that all conenctions are cleaned up.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:ci/cd"
+      ]
+    },
+    {
+      "name": "Schedule_A_Pliant_Job",
+      "path": "Schedule_A_Pliant_Job.zip",
+      "description": "This Workflow takes a timestamp and information about a target Pliant workflow and creates a Pliant Job to execute the Workflow at the date and time given. ",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": [
+        "use-case:ci/cd",
+        "use-case:resource-creation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "System testing",
+  "description": "Pre-built tests for various systems and technologies.",
+  "entries": [
+    {
+      "name": "Pliant_Instance_Health_Check",
+      "path": "Pliant_Instance_Health_Check.zip",
+      "description": "This workflow is for checking the health of a Pliant instance over SSH\nReads the status of each Kubernetes pod and checks to see if everything is running as it should be.\nReturns $result.healthy = true if all tests pass, otherwise returns $result.healthy = false\nIf a problem is detected, reports additional information about each problem pod in the $result.problems array",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:system-testing",
+        "use-case:observability"
+      ]
+    },
+    {
+      "name": "Test SSH Credentials",
+      "path": "Test SSH Credentials.zip",
+      "description": "Build a JSON authKey instead of referencing one from the Authentications vault. Takes a username, password, fqdn/IP address, and TCP port, makes an SSH authKey JSON, and tries to run a test command on the target instance. Returns the full output of the SSH block.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:system-testing"
+      ]
+    },
+    {
+      "name": "What is My IP",
+      "path": "What is My IP.zip",
+      "description": "SSH to a Linux instance and find out what the public IP is.\nUses the public Pliant IP check endpoint on the Internet\nOnly uses IPv4 at present",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:system-testing",
+        "use-case:network-management"
+      ]
+    }
+  ]
+}

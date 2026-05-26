@@ -1,0 +1,6 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Certificates",
+  "description": "Flows for IBM Concert Certificates Dimension",
+  "entries": []
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Compliance",
+  "description": "Flows for IBM Concert Compliance Dimension",
+  "entries": []
+}

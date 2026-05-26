@@ -1,0 +1,220 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Example",
+  "description": "Flows to illustrate different structures and operations you may want to use in your own flows.",
+  "entries": [
+    {
+      "name": "Add Tab to Google Sheet",
+      "path": "Add Tab to Google Sheet.zip",
+      "description": "Takes an array of arrays or an array of objects and creates a new tab in a Google Sheet having the given name and containing the given data under the account for the given Google authKey",
+      "integrations": [
+        "Common",
+        "GSuite"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Ansible Faas Example",
+      "path": "Ansible Faas Example.zip",
+      "description": "This workflow provides an Ansible FaaS example. It uses the Ansible Builder block and Ansible Pull block. The pull block is used to pull a remote copy of Ansible on each managed node, run through cron and update playbook source using a repository. ",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 02 Call_Hello_World",
+      "path": "Example 02 Call_Hello_World.zip",
+      "description": "This flow provides an example of how one Pliant workflow can call another. We call the \"Hello_World\" workflow here, and that workflow is represented as another action block in the workflow.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 03 Arrays",
+      "path": "Example 03 Arrays.zip",
+      "description": "This workflow shows an example of a few common array functions and how arrays can be used and manipulated in Pliant\n\nArrayReverse\nArrayJoin\nForEach\n\nArrays are used anywhere you have a batch or set to work with",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 04 Objects",
+      "path": "Example 04 Objects.zip",
+      "description": "This flow is to illustrate how objects can be created, referenced, and manipulated in Pliant\n\nObjects are represented using JSON syntax. An object can have multiple named properties, and each property can be a value of any type, including an array or another object. \n\nIn this flow, we consider an example object as a table (furniture, not database) and its properties",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 05 If_Then",
+      "path": "Example 05 If_Then.zip",
+      "description": "This flow illustrates the use of If..Then statements in Pliant, along with some expression syntax.\n\nIf..Then statements are for when your workflow needs to make a decision while it is executing\n\nWe will use an array to capture data as this flow executes, and use If..Then blocks to determine what strings we push into the array",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 06 Exit and Throw",
+      "path": "Example 06 Exit and Throw.zip",
+      "description": "There are two blocks you can use to make a flow complete before it reaches the end: Exit and Throw \n\nSet different values for the \"exit_status\" variable and see what happens (be sure to try 0)\n\nThis is useful if you have a way that your flow can finish early, or if you want it to stop working on a serious error.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 07 While Loop",
+      "path": "Example 07 While Loop.zip",
+      "description": "A while loop will execute until a given condition evaluates to false\n\nUse these when you do not know how many times you need to execute a loop, but you know when you would like it to stop.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 08 Loop Interruption with Break and Continue",
+      "path": "Example 08 Loop Interruption with Break and Continue.zip",
+      "description": "The action blocks \"Break\" and \"Continue\" are used to control the flow of While and ForEach loops. \n Continue will skip ahead to the next loop iteration.  \n Break will exit the loop.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 09 Try_Catch",
+      "path": "Example 09 Try_Catch.zip",
+      "description": "Things can co wrong in any kind of program, even in the low-code world. A Try-Catch can help you handle those unexpected exceptions",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 10 Sleep",
+      "path": "Example 10 Sleep.zip",
+      "description": "Sleep block and time functions - when your flows need to wait\n\nWe also have a number of Data/Time functions available\n\nAlso illustrates how to use a while loop that will time out after a certain amount of time",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Example 11 Switch Case",
+      "path": "Example 11 Switch Case.zip",
+      "description": "How to make a decision when there are more than two choices.\nThe SwitchCase block provides a way to compare a given expression against a number of other expressions, and provides a default path for when there is no match.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Generate Random Character String",
+      "path": "Generate Random Character String.zip",
+      "description": "Generates a string of random characters in a given length\nUses Common blocks generate bytes, convert to text, then cut to length. ",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Hello Ansible FaaS",
+      "path": "Hello Ansible FaaS.zip",
+      "description": "Example how to use Ansible Playbook from FaaS with a parameter",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Iterate object keys",
+      "path": "Iterate object keys.zip",
+      "description": "This flow demonstrates how you can iterate through object keys and object values",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "JavaScript Function Example",
+      "path": "JavaScript Function Example.zip",
+      "description": "Shows how to use the Function block within a workflow to run Vanilla JS. \nStarts with an array of objects and returns a count of objects that match a certain criteria",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Loop timeout demo",
+      "path": "Loop timeout demo.zip",
+      "description": "A flow to illustrate how a user can build logic around a loop in Pliant to insure that it will not run forever. The loop will be broken if it runs for more than the maximum number of seconds.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Next Element Example",
+      "path": "Next Element Example.zip",
+      "description": "Demonstrate accessing the next element in the foreach array\nHandle the case where there is no next element gracefully\nDoes not return a result. Watch the status message area in the Logs panel to see the action. ",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
+      "name": "Ultimate Excel Example",
+      "path": "Ultimate Excel Example.zip",
+      "description": "Take an array of objects filled with dummy data, populates an Excel sheet, then shows examples of putting the sheet:\n*onto a Linux server via SFTP\n*onto a Windows server via Samba\n*into AWS S3\n*in an email as an attachment ",
+      "integrations": [
+        "Common",
+        "Excel"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    }
+  ]
+}

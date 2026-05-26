@@ -1,0 +1,101 @@
+{
+  "$schema": "../schemas/category_manifest.json",
+  "name": "Compute Management",
+  "description": "Our flows give you the ability to rest assured that mundane computer management tasks will be taken care of! Explore this section to discover our top selection.",
+  "entries": [
+    {
+      "name": "AWS EC2 Instance IP and Tag Map",
+      "path": "AWS EC2 Instance IP and Tag Map.zip",
+      "description": "Returns an object with one property per instance in a given region, including the tags and private IP address. Requires an AWS authKey and the region to query",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    },
+    {
+      "name": "AWS Launch Ubuntu VM In Any Account",
+      "path": "AWS Launch Ubuntu VM In Any Account.zip",
+      "description": "Build an EC2 instance in AWS using the given AWS auth for a managed SubAccount using the default VPC and network\nAutomatically finds the latest public Ubuntu AMI image ID\nSecurity groups are created if not already existing\nAdds an SSH authKey for the created instance to a Pliant instance\nAdds a Route53 DNS record if requested",
+      "integrations": [
+        "AWS",
+        "Common",
+        "Pliant"
+      ],
+      "tags": [
+        "use-case:compute-management",
+        "use-case:resource-creation"
+      ]
+    },
+    {
+      "name": "Copy_File_To_VMware_VM_via_VMTools",
+      "path": "Copy_File_To_VMware_VM_via_VMTools.zip",
+      "description": "Copies file data to a given VM using the provided vCenter and VM credentials\nRequires the MOID of the target VM, target file path w/ filename and contents\nReturns all the output from the procedure",
+      "integrations": [
+        "VMWare",
+        "Common"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    },
+    {
+      "name": "Get Zone Data as CSV",
+      "path": "Get Zone Data as CSV.zip",
+      "description": "Returns Infoblox zone data as a CSV. Uses pagination and takes as input the initial page number as well as the number of desired entries per page",
+      "integrations": [
+        "Common",
+        "Infoblox"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    },
+    {
+      "name": "Map Resources",
+      "path": "Map Resources.zip",
+      "description": "Flow connects to a vCenter running version 6.7. Maps hosts, clusters, datastores, and such. Returns objects the correlate where the resources are related.",
+      "integrations": [
+        "VMWare",
+        "Common"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    },
+    {
+      "name": "Patch Alpine",
+      "path": "Patch Alpine.zip",
+      "description": "Requires an SSH authKey to an Alpine Linux instance as a user with sudo/nopassword ability for apk commands\nRuns an apk update and checks the needed patches on an Alpine instance using a simulated upgrade\nInstalls patches and confirms that no further patches are needed if \"Install_Patches\" is true\nOptionally reboots the instance and waits for it to be available again\nReturns information about patches needed, installed, and still needed",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    },
+    {
+      "name": "Patch Ubuntu",
+      "path": "Patch Ubuntu.zip",
+      "description": "Requires an SSH authKey to an Ubuntu instance as a user with sudo/nopassword ability for apt commands\nRuns an apt update and checks the needed patches on an Ubuntu instance\nInstalls patches and confirms that no further patches are needed if \"Install_Patches\" is true\nOptionally will clena up unneeded packages if \"Autoremove\" is true\nReturns information about patches needed, installed, and still needed",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    },
+    {
+      "name": "Wait for Linux box to be reachable via ssh",
+      "path": "Wait for Linux box to be reachable via ssh.zip",
+      "description": "Attempts to connect to a Linux host via SSH until it works or the timeout is reached. \nCan throw an error on timeout or just exit. \nResult is true if the host became reachable again or false if not.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:compute-management"
+      ]
+    }
+  ]
+}

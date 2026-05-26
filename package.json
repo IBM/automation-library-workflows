@@ -1,0 +1,29 @@
+{
+  "name": "workflows-public",
+  "version": "1.0.0",
+  "description": "Pre-built automation workflows for IBM Concert Workflows",
+  "main": "main.js",
+  "scripts": {
+    "scrape": "node main.js scrape",
+    "download": "node main.js download",
+    "download-all": "node main.js download-all",
+    "verify": "node main.js verify",
+    "fix": "node main.js fix",
+    "extract-integrations": "node main.js extract-integrations",
+    "verify-category": "node main.js verify-category",
+    "verify-all-categories": "node main.js verify-all-categories",
+    "verify-root": "node main.js verify-root",
+    "add-schemas": "node main.js add-schemas"
+  },
+  "keywords": [
+    "workflows",
+    "automation",
+    "ibm-concert"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yauzl": "^2.10.0",
+    "yazl": "^2.5.1"
+  }
+}
