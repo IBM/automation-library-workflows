@@ -1036,7 +1036,7 @@ async function addZipToManifest(categoryPath, extraZips, targetArr) {
                 path: zip,
                 description: '',
                 integrations: Array.from(actualSet),
-                tags: []
+                tags: categoryPath ? [`use-case:${categoryPath.toLowerCase().replace(/ /g, '-')}`] : []
             })
         } catch (error) {
             console.log(`✗ Error extracting integrations from ${zip}: ${error.message}`);

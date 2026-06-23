@@ -227,6 +227,1300 @@
       "tags": [
         "use-case:example"
       ]
+    },
+    {
+      "name": "Add and Discover Device in SevOne",
+      "path": "Add_and_Discover_Device_in_SevOne.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Add New SevOne Policy",
+      "path": "Add_New_SevOne_Policy.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Add Tab to Google Sheet",
+      "path": "Add_Tab_to_Google_Sheet.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "GSuite"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Add Worker Group",
+      "path": "Add_Worker_Group.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ansible Builder Additional Files",
+      "path": "Ansible_Builder_Additional_Files.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ansible Builder Additional Files Sub Folders",
+      "path": "Ansible_Builder_Additional_Files_Sub_Folders.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ansible Faas Example",
+      "path": "Ansible_Faas_Example.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ansible Playbook",
+      "path": "Ansible_Playbook.zip",
+      "description": "",
+      "integrations": [
+        "Ansible",
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ansible Run With Archive From HTTP Request",
+      "path": "Ansible_Run_With_Archive_From_HTTP_Request.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "AWS - Describe All Cluster - All Regions",
+      "path": "AWS_-_Describe_All_Cluster_-_All_Regions.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "AWS - Describe All Cluster - Per Region",
+      "path": "AWS_-_Describe_All_Cluster_-_Per_Region.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "AWS - List All Cluster - All Regions",
+      "path": "AWS_-_List_All_Cluster_-_All_Regions.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "AWS - List All Cluster - Per Region",
+      "path": "AWS_-_List_All_Cluster_-_Per_Region.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "AWS EC2 Instances Count and Slack Alert - 2025-01-23T14 24 12.000Z",
+      "path": "AWS_EC2_Instances_Count_and_Slack_Alert_-_2025-01-23T14_24_12.000Z.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common",
+        "Slack"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Build AWS EKS Cluster in a new AWS Account",
+      "path": "Build_AWS_EKS_Cluster_in_a_new_AWS_Account.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Check SDWAN device software",
+      "path": "Check_SDWAN_device_software.zip",
+      "description": "",
+      "integrations": [
+        "Cisco",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "cidr 2 mask",
+      "path": "cidr_2_mask.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Close ServiceNow Incident",
+      "path": "Close_ServiceNow_Incident.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Convert IP From Binary",
+      "path": "Convert_IP_From_Binary.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Convert IP To Binary",
+      "path": "Convert_IP_To_Binary.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Create Google Sheet",
+      "path": "Create_Google_Sheet.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "GSuite"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Create MySQL Table from Salesforce Object Metadata",
+      "path": "Create_MySQL_Table_from_Salesforce_Object_Metadata.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Salesforce"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Create ServiceNow Ticket",
+      "path": "Create_ServiceNow_Ticket.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Create ServiceNow Ticket - Update SevOne alert with TicketID",
+      "path": "Create_ServiceNow_Ticket_-_Update_SevOne_alert_with_TicketID.zip",
+      "description": "",
+      "integrations": [],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Create Ticket",
+      "path": "Create_Ticket.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Create Users in RNA",
+      "path": "Create_Users_in_RNA.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "csrx-demo",
+      "path": "csrx-demo.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "OpenShift"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "De-duplicate and update SevOne alerts to ServiceNow",
+      "path": "De-duplicate_and_update_SevOne_alerts_to_ServiceNow.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Delete Device from SevOne",
+      "path": "Delete_Device_from_SevOne.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Describe Salesforce Object",
+      "path": "Describe_Salesforce_Object.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Salesforce"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Enable Netflow on VYOS router",
+      "path": "Enable_Netflow_on_VYOS_router.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 02 Call Hello World",
+      "path": "Example_02_Call_Hello_World.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 03 Arrays",
+      "path": "Example_03_Arrays.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 04 Objects",
+      "path": "Example_04_Objects.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 05 If Then",
+      "path": "Example_05_If_Then.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 06 Exit and Throw",
+      "path": "Example_06_Exit_and_Throw.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 07 While Loop",
+      "path": "Example_07_While_Loop.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 08 Loop Interruption with Break and Continue",
+      "path": "Example_08_Loop_Interruption_with_Break_and_Continue.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 09 Try Catch",
+      "path": "Example_09_Try_Catch.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 10 Sleep",
+      "path": "Example_10_Sleep.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Example 11 Switch Case",
+      "path": "Example_11_Switch_Case.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Excel Workflow Example",
+      "path": "Excel_Workflow_Example.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Excel"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "F5 Change Password",
+      "path": "F5_Change_Password.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "F5 Crypto Get Cert Expirating Soon",
+      "path": "F5_Crypto_Get_Cert_Expirating_Soon.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "f5"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "F5 CVE 2020 5902 Mitigator",
+      "path": "F5_CVE_2020_5902_Mitigator.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "f5"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "F5 Install License",
+      "path": "F5_Install_License.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "F5 List Policy Rules",
+      "path": "F5_List_Policy_Rules.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "f5"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "F5 Set appdata Disk Size",
+      "path": "F5_Set_appdata_Disk_Size.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Find The Latest Ubuntu EC2 AMI",
+      "path": "Find_The_Latest_Ubuntu_EC2_AMI.zip",
+      "description": "",
+      "integrations": [
+        "AWS",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "GCP Compute Delete Instance",
+      "path": "GCP_Compute_Delete_Instance.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "GCP"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "GCP Compute List Instances",
+      "path": "GCP_Compute_List_Instances.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "GCP"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "GenAI assisted ticket",
+      "path": "GenAI_assisted_ticket.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "IBM",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Generate Random Character String",
+      "path": "Generate_Random_Character_String.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Datastore",
+      "path": "Get_Datastore.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "VMWare"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Detailed Pliant Worker Status",
+      "path": "Get_Detailed_Pliant_Worker_Status.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "MySQL"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Hosts Count For Network",
+      "path": "Get_Hosts_Count_For_Network.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Kubernetes Performance Metrics",
+      "path": "Get_Kubernetes_Performance_Metrics.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Kubernetes"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Next IP Address",
+      "path": "Get_Next_IP_Address.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Next IP Network",
+      "path": "Get_Next_IP_Network.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get Prometheus Node Capacity",
+      "path": "Get_Prometheus_Node_Capacity.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Prometheus"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get StoragePod",
+      "path": "Get_StoragePod.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "VMWare"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get VMHost",
+      "path": "Get_VMHost.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "VMWare"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Get VMHosts In Cluster",
+      "path": "Get_VMHosts_In_Cluster.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "VMWare"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Hello Ansible",
+      "path": "Hello_Ansible.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Hello Ansible FaaS",
+      "path": "Hello_Ansible_FaaS.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "IBM Cloud - Block ICMP Traffic",
+      "path": "IBM_Cloud_-_Block_ICMP_Traffic.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "IBM"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "IBM Cloud Monitoring",
+      "path": "IBM_Cloud_Monitoring.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "IBM Watson LLM interaction",
+      "path": "IBM_Watson_LLM_interaction.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "IBM"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Increment IP Address",
+      "path": "Increment_IP_Address.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "InstallFlows",
+      "path": "InstallFlows.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Iterate object keys",
+      "path": "Iterate_object_keys.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "ITSM with GenAI enhancement",
+      "path": "ITSM_with_GenAI_enhancement.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "IBM",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "JavaScript Function Example",
+      "path": "JavaScript_Function_Example.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Jira Incident Automation - Enhanced",
+      "path": "Jira_Incident_Automation_-_Enhanced.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "JMX Exporter to IBM SevOne v1.0",
+      "path": "JMX_Exporter_to_IBM_SevOne_v1.0.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "JS Function Block Example",
+      "path": "JS_Function_Block_Example.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "List Issues for a Project - Search Customer",
+      "path": "List_Issues_for_a_Project_-_Search_Customer.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "List Issues for a Project - Search Summary",
+      "path": "List_Issues_for_a_Project_-_Search_Summary.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "List of All Issues for a Project",
+      "path": "List_of_All_Issues_for_a_Project.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Loop timeout demo",
+      "path": "Loop_timeout_demo.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Make IP to device id dictionary",
+      "path": "Make_IP_to_device_id_dictionary.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Manage Deployment",
+      "path": "Manage_Deployment.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "OpenShift"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Migrate API key authentication to header for all Concert Workflows APIs",
+      "path": "Migrate_API_key_authentication_to_header_for_all_Concert_Workflows_APIs.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "IBM"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Migrate A Folder Of Flows",
+      "path": "Migrate_A_Folder_Of_Flows.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Next Element Example",
+      "path": "Next_Element_Example.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1-addDNSrecord",
+      "path": "NS1-addDNSrecord.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - Geo Data - Countries",
+      "path": "NS1_-_Geo_Data_-_Countries.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - Geo Data - SubDivisions",
+      "path": "NS1_-_Geo_Data_-_SubDivisions.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - List All Records - by Zone",
+      "path": "NS1_-_List_All_Records_-_by_Zone.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - List All Records Details - by Zone",
+      "path": "NS1_-_List_All_Records_Details_-_by_Zone.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - List All Zones",
+      "path": "NS1_-_List_All_Zones.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - Metadata fields",
+      "path": "NS1_-_Metadata_fields.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 - Search for Zone by Name",
+      "path": "NS1_-_Search_for_Zone_by_Name.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "NS1 DataExport splunkImport",
+      "path": "NS1_DataExport_splunkImport.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ping Linux 2",
+      "path": "Ping_Linux_2.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Python on Remote Device",
+      "path": "Python_on_Remote_Device.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Read All Pliant Versions",
+      "path": "Read_All_Pliant_Versions.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "RIA-Python-New",
+      "path": "RIA-Python-New.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "FaaS",
+        "IBM"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "RNA AnsibleModule Playbook",
+      "path": "RNA_AnsibleModule_Playbook.zip",
+      "description": "",
+      "integrations": [
+        "Ansible",
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "RNA ServerSSH AnsiblePlaybook",
+      "path": "RNA_ServerSSH_AnsiblePlaybook.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Search workflows on a Pliant",
+      "path": "Search_workflows_on_a_Pliant.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "MySQL"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Secret Decrypt",
+      "path": "Secret_Decrypt.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Secret Encrypt",
+      "path": "Secret_Encrypt.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Security Response Automation (Blackhole Malicious IP in NS1)",
+      "path": "Security_Response_Automation_(Blackhole_Malicious_IP_in_NS1).zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "NS1"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Send SMS RingCentral",
+      "path": "Send_SMS_RingCentral.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "ServerSSH AnsiblePlaybook",
+      "path": "ServerSSH_AnsiblePlaybook.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "ServiceNow Ticket Deduplication",
+      "path": "ServiceNow_Ticket_Deduplication.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOneQueryDevice",
+      "path": "SevOneQueryDevice.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOneQueryDevice getID",
+      "path": "SevOneQueryDevice_getID.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOne - Check Devices not Monitored Correctly",
+      "path": "SevOne_-_Check_Devices_not_Monitored_Correctly.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOne Data Insight Monitoring",
+      "path": "SevOne_Data_Insight_Monitoring.zip",
+      "description": "",
+      "integrations": [
+        "Cisco",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOne Generic Data Insert Map Dictionary",
+      "path": "SevOne_Generic_Data_Insert_Map_Dictionary.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Pliant"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOne High Frequency Polling",
+      "path": "SevOne_High_Frequency_Polling.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SevOne Ingest Data - APIv3 (new v3 version)",
+      "path": "SevOne_Ingest_Data_-_APIv3_(new_v3_version).zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SubFlow - Create ServiceNow Ticket",
+      "path": "SubFlow_-_Create_ServiceNow_Ticket.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "SubFlow - get ServiceNow Inventory",
+      "path": "SubFlow_-_get_ServiceNow_Inventory.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Synchronize a MySQL table from a Salesforce Object",
+      "path": "Synchronize_a_MySQL_table_from_a_Salesforce_Object.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "MySQL",
+        "Salesforce"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Sync Device List on Site Planner and SevOne",
+      "path": "Sync_Device_List_on_Site_Planner_and_SevOne.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "IBM",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Sync SevOne Devices With ServiceNow",
+      "path": "Sync_SevOne_Devices_With_ServiceNow.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Sync SevOne Devices With ServiceNow v3",
+      "path": "Sync_SevOne_Devices_With_ServiceNow_v3.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "ServiceNow",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Template8 CreateServiceNowEnrichedTicket",
+      "path": "Template8_CreateServiceNowEnrichedTicket.zip",
+      "description": "",
+      "integrations": [
+        "Cisco",
+        "Common",
+        "ServiceNow"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "TestPasVsHsa",
+      "path": "TestPasVsHsa.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Transition Ticket",
+      "path": "Transition_Ticket.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "TurboAction",
+      "path": "TurboAction.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Github"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Ultimate Excel Example",
+      "path": "Ultimate_Excel_Example.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Excel"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "UpdateSevOnePolicyEmail",
+      "path": "UpdateSevOnePolicyEmail.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Update Community String in SevOne",
+      "path": "Update_Community_String_in_SevOne.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Update sevOne SNMP Community String",
+      "path": "Update_sevOne_SNMP_Community_String.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "SevOne"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Update Ticket",
+      "path": "Update_Ticket.zip",
+      "description": "",
+      "integrations": [
+        "Atlassian",
+        "Common"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "User Password  Reset by username",
+      "path": "User_Password__Reset_by_username.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "Salesforce"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Use VMware Tools and Run a PowerShell Command on a Windows VM",
+      "path": "Use_VMware_Tools_and_Run_a_PowerShell_Command_on_a_Windows_VM.zip",
+      "description": "",
+      "integrations": [
+        "Common",
+        "VMware"
+      ],
+      "tags": ["use-case:example"]
+    },
+    {
+      "name": "Validate IP",
+      "path": "Validate_IP.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": ["use-case:example"]
     }
   ]
 }
