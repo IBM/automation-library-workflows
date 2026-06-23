@@ -205,6 +205,18 @@
       ]
     },
     {
+      "name": "Set role members in Concert Workflows",
+      "path": "Set role members in Concert Workflows.zip",
+      "description": "Replaces the user membership of a CW role while preserving all other role properties (policies, worker groups, description). Fetches the current role state before updating to avoid overwriting unrelated fields.",
+      "integrations": [
+        "IBM",
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
       "name": "Ultimate Excel Example",
       "path": "Ultimate Excel Example.zip",
       "description": "Take an array of objects filled with dummy data, populates an Excel sheet, then shows examples of putting the sheet:\n*onto a Linux server via SFTP\n*onto a Windows server via Samba\n*into AWS S3\n*in an email as an attachment ",
