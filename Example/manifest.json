@@ -205,6 +205,18 @@
       ]
     },
     {
+      "name": "Set role members in Concert Workflows",
+      "path": "Set role members in Concert Workflows.zip",
+      "description": "Replaces the user membership of a CW role while preserving all other role properties (policies, worker groups, description). Fetches the current role state before updating to avoid overwriting unrelated fields.",
+      "integrations": [
+        "IBM",
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
+    },
+    {
       "name": "Ultimate Excel Example",
       "path": "Ultimate Excel Example.zip",
       "description": "Take an array of objects filled with dummy data, populates an Excel sheet, then shows examples of putting the sheet:\n*onto a Linux server via SFTP\n*onto a Windows server via Samba\n*into AWS S3\n*in an email as an attachment ",
@@ -224,7 +236,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Add New SevOne Policy",
@@ -234,7 +248,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Add Tab to Google Sheet",
@@ -244,7 +260,9 @@
         "Common",
         "GSuite"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Add Worker Group",
@@ -254,7 +272,9 @@
         "Common",
         "Pliant"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ansible Builder Additional Files",
@@ -264,7 +284,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ansible Builder Additional Files Sub Folders",
@@ -274,7 +296,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ansible Faas Example",
@@ -284,7 +308,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ansible Playbook",
@@ -295,7 +321,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ansible Run With Archive From HTTP Request",
@@ -305,7 +333,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "AWS - Describe All Cluster - All Regions",
@@ -315,7 +345,9 @@
         "AWS",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "AWS - Describe All Cluster - Per Region",
@@ -325,7 +357,9 @@
         "AWS",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "AWS - List All Cluster - All Regions",
@@ -335,7 +369,9 @@
         "AWS",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "AWS - List All Cluster - Per Region",
@@ -345,7 +381,9 @@
         "AWS",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "AWS EC2 Instances Count and Slack Alert - 2025-01-23T14 24 12.000Z",
@@ -356,7 +394,9 @@
         "Common",
         "Slack"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Build AWS EKS Cluster in a new AWS Account",
@@ -366,7 +406,9 @@
         "AWS",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Check SDWAN device software",
@@ -376,7 +418,9 @@
         "Cisco",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "cidr 2 mask",
@@ -385,7 +429,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Close ServiceNow Incident",
@@ -395,7 +441,9 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Convert IP From Binary",
@@ -404,7 +452,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Convert IP To Binary",
@@ -413,7 +463,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Create Google Sheet",
@@ -423,7 +475,9 @@
         "Common",
         "GSuite"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Create MySQL Table from Salesforce Object Metadata",
@@ -433,7 +487,9 @@
         "Common",
         "Salesforce"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Create ServiceNow Ticket",
@@ -443,14 +499,18 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Create ServiceNow Ticket - Update SevOne alert with TicketID",
       "path": "Create_ServiceNow_Ticket_-_Update_SevOne_alert_with_TicketID.zip",
       "description": "",
       "integrations": [],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Create Ticket",
@@ -460,7 +520,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Create Users in RNA",
@@ -470,7 +532,9 @@
         "Common",
         "Pliant"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "csrx-demo",
@@ -480,7 +544,9 @@
         "Common",
         "OpenShift"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "De-duplicate and update SevOne alerts to ServiceNow",
@@ -491,7 +557,9 @@
         "ServiceNow",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Delete Device from SevOne",
@@ -501,7 +569,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Describe Salesforce Object",
@@ -511,7 +581,9 @@
         "Common",
         "Salesforce"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Enable Netflow on VYOS router",
@@ -520,7 +592,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 02 Call Hello World",
@@ -529,7 +603,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 03 Arrays",
@@ -538,7 +614,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 04 Objects",
@@ -547,7 +625,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 05 If Then",
@@ -556,7 +636,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 06 Exit and Throw",
@@ -565,7 +647,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 07 While Loop",
@@ -574,7 +658,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 08 Loop Interruption with Break and Continue",
@@ -583,7 +669,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 09 Try Catch",
@@ -592,7 +680,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 10 Sleep",
@@ -601,7 +691,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Example 11 Switch Case",
@@ -610,7 +702,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Excel Workflow Example",
@@ -620,7 +714,9 @@
         "Common",
         "Excel"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "F5 Change Password",
@@ -629,7 +725,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "F5 Crypto Get Cert Expirating Soon",
@@ -639,7 +737,9 @@
         "Common",
         "f5"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "F5 CVE 2020 5902 Mitigator",
@@ -649,7 +749,9 @@
         "Common",
         "f5"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "F5 Install License",
@@ -658,7 +760,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "F5 List Policy Rules",
@@ -668,7 +772,9 @@
         "Common",
         "f5"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "F5 Set appdata Disk Size",
@@ -677,7 +783,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Find The Latest Ubuntu EC2 AMI",
@@ -687,7 +795,9 @@
         "AWS",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "GCP Compute Delete Instance",
@@ -697,7 +807,9 @@
         "Common",
         "GCP"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "GCP Compute List Instances",
@@ -707,7 +819,9 @@
         "Common",
         "GCP"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "GenAI assisted ticket",
@@ -718,7 +832,9 @@
         "IBM",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Generate Random Character String",
@@ -727,7 +843,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Datastore",
@@ -737,7 +855,9 @@
         "Common",
         "VMWare"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Detailed Pliant Worker Status",
@@ -747,7 +867,9 @@
         "Common",
         "MySQL"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Hosts Count For Network",
@@ -756,7 +878,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Kubernetes Performance Metrics",
@@ -766,7 +890,9 @@
         "Common",
         "Kubernetes"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Next IP Address",
@@ -775,7 +901,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Next IP Network",
@@ -784,7 +912,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get Prometheus Node Capacity",
@@ -794,7 +924,9 @@
         "Common",
         "Prometheus"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get StoragePod",
@@ -804,7 +936,9 @@
         "Common",
         "VMWare"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get VMHost",
@@ -814,7 +948,9 @@
         "Common",
         "VMWare"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Get VMHosts In Cluster",
@@ -824,7 +960,9 @@
         "Common",
         "VMWare"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Hello Ansible",
@@ -834,7 +972,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Hello Ansible FaaS",
@@ -844,7 +984,9 @@
         "Common",
         "FaaS"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "IBM Cloud - Block ICMP Traffic",
@@ -854,7 +996,9 @@
         "Common",
         "IBM"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "IBM Cloud Monitoring",
@@ -864,7 +1008,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "IBM Watson LLM interaction",
@@ -874,7 +1020,9 @@
         "Common",
         "IBM"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Increment IP Address",
@@ -883,7 +1031,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "InstallFlows",
@@ -893,7 +1043,9 @@
         "Common",
         "Pliant"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Iterate object keys",
@@ -902,7 +1054,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "ITSM with GenAI enhancement",
@@ -913,7 +1067,9 @@
         "IBM",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "JavaScript Function Example",
@@ -922,7 +1078,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Jira Incident Automation - Enhanced",
@@ -932,7 +1090,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "JMX Exporter to IBM SevOne v1.0",
@@ -942,7 +1102,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "JS Function Block Example",
@@ -951,7 +1113,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "List Issues for a Project - Search Customer",
@@ -961,7 +1125,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "List Issues for a Project - Search Summary",
@@ -971,7 +1137,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "List of All Issues for a Project",
@@ -981,7 +1149,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Loop timeout demo",
@@ -990,7 +1160,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Make IP to device id dictionary",
@@ -1000,7 +1172,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Manage Deployment",
@@ -1010,7 +1184,9 @@
         "Common",
         "OpenShift"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Migrate API key authentication to header for all Concert Workflows APIs",
@@ -1020,7 +1196,9 @@
         "Common",
         "IBM"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Migrate A Folder Of Flows",
@@ -1030,7 +1208,9 @@
         "Common",
         "Pliant"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Next Element Example",
@@ -1039,7 +1219,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1-addDNSrecord",
@@ -1049,7 +1231,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - Geo Data - Countries",
@@ -1059,7 +1243,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - Geo Data - SubDivisions",
@@ -1069,7 +1255,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - List All Records - by Zone",
@@ -1079,7 +1267,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - List All Records Details - by Zone",
@@ -1089,7 +1279,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - List All Zones",
@@ -1099,7 +1291,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - Metadata fields",
@@ -1109,7 +1303,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 - Search for Zone by Name",
@@ -1119,7 +1315,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "NS1 DataExport splunkImport",
@@ -1128,7 +1326,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ping Linux 2",
@@ -1138,7 +1338,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Python on Remote Device",
@@ -1147,7 +1349,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Read All Pliant Versions",
@@ -1157,7 +1361,9 @@
         "Common",
         "Pliant"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "RIA-Python-New",
@@ -1168,7 +1374,9 @@
         "FaaS",
         "IBM"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "RNA AnsibleModule Playbook",
@@ -1179,7 +1387,9 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "RNA ServerSSH AnsiblePlaybook",
@@ -1188,7 +1398,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Search workflows on a Pliant",
@@ -1198,7 +1410,9 @@
         "Common",
         "MySQL"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Secret Decrypt",
@@ -1207,7 +1421,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Secret Encrypt",
@@ -1216,7 +1432,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Security Response Automation (Blackhole Malicious IP in NS1)",
@@ -1226,7 +1444,9 @@
         "Common",
         "NS1"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Send SMS RingCentral",
@@ -1235,7 +1455,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "ServerSSH AnsiblePlaybook",
@@ -1244,7 +1466,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "ServiceNow Ticket Deduplication",
@@ -1254,7 +1478,9 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOneQueryDevice",
@@ -1264,7 +1490,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOneQueryDevice getID",
@@ -1274,7 +1502,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOne - Check Devices not Monitored Correctly",
@@ -1284,7 +1514,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOne Data Insight Monitoring",
@@ -1294,7 +1526,9 @@
         "Cisco",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOne Generic Data Insert Map Dictionary",
@@ -1304,7 +1538,9 @@
         "Common",
         "Pliant"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOne High Frequency Polling",
@@ -1314,7 +1550,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SevOne Ingest Data - APIv3 (new v3 version)",
@@ -1324,7 +1562,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SubFlow - Create ServiceNow Ticket",
@@ -1334,7 +1574,9 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "SubFlow - get ServiceNow Inventory",
@@ -1344,7 +1586,9 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Synchronize a MySQL table from a Salesforce Object",
@@ -1355,7 +1599,9 @@
         "MySQL",
         "Salesforce"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Sync Device List on Site Planner and SevOne",
@@ -1366,7 +1612,9 @@
         "IBM",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Sync SevOne Devices With ServiceNow",
@@ -1377,7 +1625,9 @@
         "ServiceNow",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Sync SevOne Devices With ServiceNow v3",
@@ -1388,7 +1638,9 @@
         "ServiceNow",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Template8 CreateServiceNowEnrichedTicket",
@@ -1399,7 +1651,9 @@
         "Common",
         "ServiceNow"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "TestPasVsHsa",
@@ -1409,7 +1663,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Transition Ticket",
@@ -1419,7 +1675,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "TurboAction",
@@ -1429,7 +1687,9 @@
         "Common",
         "Github"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Ultimate Excel Example",
@@ -1439,7 +1699,9 @@
         "Common",
         "Excel"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "UpdateSevOnePolicyEmail",
@@ -1449,7 +1711,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Update Community String in SevOne",
@@ -1459,7 +1723,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Update sevOne SNMP Community String",
@@ -1469,7 +1735,9 @@
         "Common",
         "SevOne"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Update Ticket",
@@ -1479,7 +1747,9 @@
         "Atlassian",
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "User Password  Reset by username",
@@ -1489,7 +1759,9 @@
         "Common",
         "Salesforce"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Use VMware Tools and Run a PowerShell Command on a Windows VM",
@@ -1499,7 +1771,9 @@
         "Common",
         "VMware"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     },
     {
       "name": "Validate IP",
@@ -1508,7 +1782,9 @@
       "integrations": [
         "Common"
       ],
-      "tags": ["use-case:example"]
+      "tags": [
+        "use-case:example"
+      ]
     }
   ]
 }
