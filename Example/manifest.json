@@ -1785,6 +1785,18 @@
       "tags": [
         "use-case:example"
       ]
+    },
+    {
+      "name": "List actions in integration",
+      "path": "List actions in integration.zip",
+      "description": "Lists all action blocks available within an integration, including those nested in subfolders.",
+      "integrations": [
+        "IBM",
+        "Common"
+      ],
+      "tags": [
+        "use-case:example"
+      ]
     }
   ]
 }
