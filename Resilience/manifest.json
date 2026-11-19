@@ -6,7 +6,7 @@
     {
       "name": "Instana - Application Health, SLO and Infrastructure Report",
       "path": "Instana - Application Health, SLO and Infrastructure Report.zip",
-      "description": "",
+      "description": "Queries IBM Instana's observability APIs for operational data. The inputQueryType input selects service metrics (call counts, error rates and latency), events (incidents), or infrastructure usage (CPU and memory for Kubernetes namespaces or EC2/Docker containers).",
       "integrations": [
         "Common"
       ],
