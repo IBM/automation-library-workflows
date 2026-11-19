@@ -16,6 +16,28 @@
         "use-case:example",
         "use-case:resource-creation"
       ]
+    },
+    {
+      "name": "Cloudability - AWS Cost by Resource",
+      "path": "Cloudability - AWS Cost by Resource.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:cost-management"
+      ]
+    },
+    {
+      "name": "Kubecost - Kubernetes Cost by Namespace",
+      "path": "Kubecost - Kubernetes Cost by Namespace.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:cost-management"
+      ]
     }
   ]
 }

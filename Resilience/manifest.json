@@ -2,5 +2,17 @@
   "$schema": "../schemas/category_manifest.json",
   "name": "Resilience",
   "description": "Flows for IBM Concert Resilience Dimension",
-  "entries": []
+  "entries": [
+    {
+      "name": "Instana - Application Health, SLO and Infrastructure Report",
+      "path": "Instana - Application Health, SLO and Infrastructure Report.zip",
+      "description": "",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:resilience"
+      ]
+    }
+  ]
 }
