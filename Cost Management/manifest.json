@@ -16,6 +16,28 @@
         "use-case:example",
         "use-case:resource-creation"
       ]
+    },
+    {
+      "name": "Cloudability - AWS Cost by Resource",
+      "path": "Cloudability - AWS Cost by Resource.zip",
+      "description": "Queries the Apptio Cloudability cost API for AWS cost data over a given time window and returns a ranked spend summary. Dates can be static or relative phrases such as \"beginning of last month\", and results can be filtered by service or resource identifier.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:cost-management"
+      ]
+    },
+    {
+      "name": "Kubecost - Kubernetes Cost by Namespace",
+      "path": "Kubecost - Kubernetes Cost by Namespace.zip",
+      "description": "Retrieves Kubernetes cost allocation metrics from the Kubecost API for a specified timeframe and aggregates them by namespace. Accepts a start/end date range or a relative duration such as \"5d\", and an optional namespace filter.",
+      "integrations": [
+        "Common"
+      ],
+      "tags": [
+        "use-case:cost-management"
+      ]
     }
   ]
 }
